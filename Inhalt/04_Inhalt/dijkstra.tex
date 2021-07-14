@@ -1,0 +1,6 @@
+\chapter{Dijkstra}
+Dijkstra algorithm is a greedy algorithm for finding the shortest paths between one vertex and all other vertices in a given graph.
+Therefore it solves the \ac{SSSP}. One of the major constraints of Dijkstra algorithm is that it can only be used on graphs
+with strictly positive edge weigths. \cite{Tamimi.2015}
+
+Despite the mentioned limitations Dijkstra is one of the fastest algorithms to solve the \ac{SSSP}. The respective complexity depends on the implementation of the min priority queue. Using a fibonacci heap results in a runtime complexity of $O(|V|*log|V| + |E|)$. \cite{Kiruthika.2012}
